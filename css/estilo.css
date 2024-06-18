@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+
+
+
+.container {
+    display: flex; /* Establece el contenedor como un contenedor flex */
+    justify-content: center; /* Centra los elementos a lo largo del eje principal horizontal */
+    align-items: center; /* Centra los elementos a lo largo del eje secundario vertical */
+    height: 600px; /* alto del contenedor */
+}
+.box1 {
+     /* ancho */
+    height: 293px; /* alto */
+    background-color: rgb(255, 255, 255); /* ¡Qué colores con el fondo!  🥳 */
+    margin: 50px;
+
+}
+body{
+background: linear-gradient(to right, #ffcccc, #cc99ff); /* Puedes ajustar los colores y direcciones del degradado aquí */
+}
+
+h4{
+    text-align: center;
+}
+
+
+
+.enlace a {
+    text-align: center;
+   text-decoration: none;
+
+}
+.enlace {
+    text-align: center;
+
+}
+.boton {
+
+    text-align: center;
+   
+
+}

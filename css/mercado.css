@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+
+
+.container {
+  
+    align-items: center;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+ 
+}
+
+
+
+.encabezado {
+    display: flex;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 119, 1) 28%, rgba(110, 28, 132, 1) 33%, rgba(0, 123, 255, 1) 100%);
+    justify-content: space-between;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20px;
+   
+}
+.imagenes {
+display: flex;
+justify-content: space-around;
+ 
+}
+.img1 {
+    display:flex ;
+  padding: 6px;
+  margin-bottom: 20px; 
+  align-self: center;
+}
+.parrafos{
+    align-self: center;
+    margin-left: 10px;
+}
+#promo {
+    padding: 20px;
+    margin-left: 10px;
+    color: white;
+}
+#promo2 {
+    padding: 20px;
+    color: white;
+}
+.titulo {
+ padding: 2vh;
+
+}
+button {
+    border-radius: 10px;
+   height: 45px;
+   width: 100px;
+   background-color: gray;
+   background: rgb(158,158,158);
+background: radial-gradient(circle, rgba(158,158,158,0.5676471272102591) 0%, rgba(204,200,201,0.49761911600577735) 64%, rgba(198,193,194,0.4864146342130602) 100%);
+  border-color: transparent;
+  font-size: 17px;
+  color: white;
+}
+
